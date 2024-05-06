@@ -20,11 +20,6 @@ import com.google.android.material.button.MaterialButton;
     MaterialButton btnac,btnpm,btnper,btnequal,btndot;
     MaterialButton btnplus,btnminus,btndivide,btnmulti;
     MaterialButton btn0,btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9;
-    String calculate = "";
-    int pflag = 0;
-    String a,b;
-    int cflag = 0;
-    int miflag = 0;
     String data = "";
 
     @Override
