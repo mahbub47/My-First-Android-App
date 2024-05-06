@@ -41,29 +41,30 @@
             android:gravity="center">
 
             <com.google.android.material.button.MaterialButton
-                android:backgroundTint="@color/lightGray"
+                android:id="@+id/ac"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
-                app:cornerRadius="36dp"
                 android:layout_margin="5dp"
+                android:backgroundTint="@color/lightGray"
+                android:fontFamily="sans-serif-medium"
                 android:text="AC"
-                android:id="@+id/ac"
                 android:textColor="@color/erieBlack"
-                android:textSize="18dp"
-                android:fontFamily="sans-serif-medium">
+                android:textSize="16dp"
+                app:cornerRadius="36dp">
 
             </com.google.android.material.button.MaterialButton>
+
             <com.google.android.material.button.MaterialButton
-                android:backgroundTint="@color/lightGray"
+                android:id="@+id/plusMinus"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
-                app:cornerRadius="36dp"
                 android:layout_margin="5dp"
+                android:backgroundTint="@color/lightGray"
+                android:fontFamily="sans-serif-medium"
                 android:text="+/-"
-                android:id="@+id/plusMinus"
                 android:textColor="@color/erieBlack"
-                android:textSize="18dp"
-                android:fontFamily="sans-serif-medium">
+                android:textSize="14dp"
+                app:cornerRadius="36dp">
 
             </com.google.android.material.button.MaterialButton>
             <com.google.android.material.button.MaterialButton
